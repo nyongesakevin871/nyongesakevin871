@@ -1,30 +1,30 @@
-# 👋 Hi, I'm nyongesakevin871
-### 🚀 Software Developer | 🌍 Open Source Contributor | 💡 Tech Enthusiast
+# Heart of Worship Restoration Center - Youth Payment CRM
 
----
+A lightweight CRM system to register youth members and track/manage their payments.
 
-## About Me
-- 🔭 I’m currently working on vertual assistant.
-- 🌱 I’m learning websites and graphic design.
-- 👯 I’m looking to collaborate on vertual assistant, website and graphic design.
-- 📫 How to reach me:nyongesakevin871@gmail.com
-- ⚡ Fun fact:am interested in learning new things.
+## Features
 
----
+- Dashboard with key totals:
+  - Total registered youths
+  - Total contributions
+  - Monthly contributions
+- Youth member management:
+  - Add members with name, gender, phone, and zone/cell
+  - View members with cumulative amount paid
+- Payment management:
+  - Record payments by type (tithe, offering, seed, project contribution)
+  - Track date, amount, method, and notes
+  - View payment history
+  - Delete incorrect payment records
 
-## 🌟 Skills & Tools
-- **Languages: English.
-- **Frameworks & Libraries:** [List]
-- **Tools & Platforms: Fiverr, utest and Upwork.
+## Quick start
 
----
+```bash
+python3 app.py
+```
 
-## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nyongesakevin871&show_icons=true&theme=radical)
-English (https://github-readme-stats.vercel.app/api/top-langs/?username=nyongesakevin871&layout=compact&theme=radical)
+Then open http://127.0.0.1:5000 in your browser.
 
----
+## Data storage
 
-## 🌐 Connect with Me
-WhatsApp+254783818494.
-Facebook: Engineer Kevin nyongesa juma.
+The app uses SQLite and automatically creates `crm.db` in the project root on first run.
